@@ -1,0 +1,428 @@
+/* font faces */
+
+@font-face {
+    font-family: "EuroStar-Black-Extended";
+    src: url("./assets/fonts/eurostarblackextended.ttf");
+}
+
+@font-face {
+    font-family: "EuroStar-Regular-Extended";
+    src: url("./assets/fonts/eurostarregularextended.ttf");
+}
+
+body {
+    background-color: #0066FF;
+    background-image: url(./assets/images/grid/1.jpg);
+    overflow: hidden;
+}
+
+#blackboard {
+    display: block;
+    width: 100%;
+    height: 97%;
+    pointer-events: all;
+    background-image: url(./assets/images/grid/grid4.png);
+    background-position: 0px 0px;
+    background-size: auto 30px;
+    background-repeat: repeat;
+}
+
+#notes-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row; 
+}
+
+#elements-container {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: column; 
+/*    background-color: green;*/
+    align-self: center;
+}
+
+#top-wrapper-container {
+    width: 100%;
+    height: 13%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: yellow;*/
+}
+
+#title-wrapper-container {
+    width: 38.5vw;
+    height: 60%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: red;*/
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 18px;
+}
+
+#title-container {
+    font-family: "EuroStar-Black-Extended";
+    color: white;
+    font-size: 2.5vw;
+    border-bottom: 1px solid white;
+}
+
+#break-wrapper-container {
+    width: 15vw;
+    height: 60%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    align-self: center;
+}
+
+#break-container {
+    width: 80%;
+    height: 55%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: yellow;*/
+    border-bottom: 1px solid white;
+    margin-left: 18px;
+}
+
+#bottom-wrapper-container {
+    width: 100%;
+    height: 100%;
+    display: flex;    
+    flex-direction: column; 
+    justify-content: flex-start;
+/*    background-color: orange;*/
+}
+
+#button-book-wrapper-container {
+    font-family: "EuroStar-Regular-Extended";
+    color: white;
+    font-size: 1.57vw;
+    width: 94%;
+    height: 30%;
+    margin-left: 22px;
+    display: flex;  
+    flex-direction: row;  
+/*  justify-content: space-between;*/
+    flex-wrap: wrap;
+/*    background-color: blue;*/
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+}
+
+#marketplace-button-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: EuroStar-Black-Extended;
+    color: white;
+    font-size: 1.6vw;
+    width: auto;
+    height: 20%;
+    border: 1px solid white;
+    padding: 2px 10px;
+    cursor: pointer
+}
+
+#marketplace-button-container.one {
+    width: 14vw;
+    margin-right: 15px;
+/*    margin-bottom: 3px;*/
+}
+
+#marketplace-button-container.one.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container.two {
+    width: 28vw;
+/*    margin-bottom: 2px;*/
+}
+
+#marketplace-button-container.two.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container.three {
+    margin-right: 15px;
+/*    margin-bottom: 5px;*/
+}
+
+#marketplace-button-container.three.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container.four {
+    margin-right: 15px;
+/*    margin-bottom: 5px;*/
+}
+
+#marketplace-button-container.four.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container.five {
+    margin-right: 15px;
+/*    margin-bottom: 5px;*/
+}
+
+#marketplace-button-container.five.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container.six {
+
+}
+
+#marketplace-button-container.six.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#marketplace-button-container:hover {
+    background-color: white;
+    color: #0066FF;
+}
+
+#press-link {
+    color: white;
+    font-family: "EuroStar-Black-Extended";
+/*    font-size: 20px;*/
+/*    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;*/
+    border: none !important;
+    text-decoration: none;
+}
+
+#press-link:hover {
+    background-color: white;
+    color: #0066FF;
+}
+
+#press-link.activated {
+    background-color: white;
+    color: #0066FF;
+}
+
+#press-switch-container {
+    width: 94%;
+    height: 60%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: red;*/
+    align-self: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#press-image-container {
+    width: 35%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Ny-Times.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#press-image-container.one {
+    width: 35%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Air-Jordan.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-image-container.two {
+    width: 35%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Architecual-Digest.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-image-container.three {
+    width: 35%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Pioneer-Works.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-image-container.four {
+    width: 35%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Time-Magazine.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-image-container.five {
+    width: 35%;
+    height: 45%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/The-Cut.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#press-copy-container {
+    width: 65%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: blue;*/
+    justify-content: center;
+}
+
+#press-copy {
+    margin-top: 0px;
+    margin-left: 15px;
+    color: white;
+    font-family: "EuroStar-Regular-Extended";
+    font-size: 1.45vw;
+    display: none;
+}
+
+#press-copy.one {
+
+}
+
+#press-copy.two {
+    
+}
+
+#press-copy.three {
+    
+}
+
+#press-copy.four {
+    
+}
+
+#press-copy.five {
+
+}
+
+#press-copy.six {
+    display: block;
+}
+
+#press-article-link {
+    color: white;
+}
+
+#photo-container {
+    width: 40%;
+    height: 100%;
+    display: flex;    
+    flex-direction: column; 
+/*    background-color: red;*/
+    align-self: center;
+    justify-content: center;
+}
+
+#photo-wrapper {
+    width: 90%;
+    height: 92%;
+    display: flex;    
+    flex-direction: column; 
+    align-self: center;
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/DSC09906.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+body {
+    background-color: #0066FF;
+    background-image: url(./assets/images/grid/1.jpg);
+    overflow: auto;
+}   
+
+#blackboard {
+    display: block;
+    width: 100%;
+    height: 99vh;
+    pointer-events: all;
+    background-image: url(./assets/images/grid/grid4.png);
+    background-position: 0px 0px;
+    background-size: auto 30px;
+    background-repeat: repeat;
+}
+
+#notes-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    height: 97.5vh;
+    border: 2px solid white;
+    margin: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+}
