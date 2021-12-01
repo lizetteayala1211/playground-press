@@ -574,7 +574,7 @@ body {
 }
 
 #marketplace-button-container.four {
-    margin-right: 0px;
+    margin-right: 15px;
     margin-bottom: 20px;
 }
 
@@ -599,10 +599,84 @@ body {
     height: 100%;
     display: flex;
     flex-direction: row;
-    /* background-color: green; */
     justify-content: center;
     border: 1px solid white;
     background-image: url(./assets/images/press-imgs/Ny-Times.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#press-image-container.one {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Air-Jordan.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#press-image-container.two {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Architecual-Digest.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#press-image-container.three {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Pioneer-Works.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#press-image-container.four {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/Time-Magazine.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+
+#press-image-container.five {
+    width: 60%;
+    height: 100%;
+    display: flex;    
+    flex-direction: row; 
+/*    background-color: green;*/
+    justify-content: center;
+    border: 1px solid white;
+    background-image: url('./assets/images/press-imgs/The-Cut.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
